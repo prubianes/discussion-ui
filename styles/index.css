@@ -4,6 +4,18 @@ body {
     margin-right: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+h4 {
+    display: inline-block;
+}
+
+hr {
+    margin-bottom: 3em;
+}
+
 /* Form styles */
 #add-comment {
     margin-bottom: 5%;
@@ -31,6 +43,15 @@ body {
     background-color: blueviolet;
     color: white;
     border-radius: 8px;
+}
+
+#comment-body {
+    width: 95%;
+    margin-top: 0%;
+}
+
+#reply{
+    margin-left: 3%;
 }
 
 .grid {
@@ -82,18 +103,6 @@ body {
 
 .comment-grid4 {
     grid-area: 3 / 2 / 3 / 8;
-}
-
-h4 {
-    display: inline-block;
-}
-
-#comment-body {
-    width: 95%;
-    margin-top: 0%;
-}
-#reply{
-    margin-left: 3%;
 }
 
 @media only screen and (max-width: 760px) {
